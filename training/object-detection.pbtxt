@@ -1,0 +1,24 @@
+item {
+	id:1
+	name:'theif'
+}
+item {
+	id:2
+	name:'fall'
+}
+item {
+	id:3
+	name:'damaging'
+}
+item {
+	id:4
+	name:'throw'
+}
+item {
+	id:5
+	name:'weapon'
+}
+item {
+	id:6
+	name:'fight'
+}
