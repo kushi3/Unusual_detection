@@ -32,14 +32,18 @@ FLAGS = flags.FLAGS
 
 # replace row_label with the name you annotated your images as
 def class_text_to_int(row_label):
-    if row_label == 'Mask':
+    if row_label == 'thief':
         return 1
-    elif row_label == 'Non Mask':
+    elif row_label == 'fall':
         return 2
-    elif row_label == 'Social Distance':
+    elif row_label == 'damaging':
         return 3
-    elif row_label == 'No Social Distance':
+    elif row_label == 'throw':
         return 4
+    elif row_label == 'weapon':
+        return 5
+    elif row_label == 'fight':
+        return 6
     else:
         return 0
 
