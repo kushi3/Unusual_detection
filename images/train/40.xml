@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Unusual</folder>
+	<filename>40.jpg</filename>
+	<path>F:\Dataset\Unusual\40.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>683</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>353</xmin>
+			<ymin>28</ymin>
+			<xmax>992</xmax>
+			<ymax>502</ymax>
+		</bndbox>
+	</object>
+</annotation>
