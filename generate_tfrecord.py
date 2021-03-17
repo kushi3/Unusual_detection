@@ -96,9 +96,9 @@ def create_tf_example(group, path):
 
 
 def main(_):
-    output_path = '/content/SSD_OBJECT-DETECTION/masks/data/'
-    image_dir= '/content/SSD_OBJECT-DETECTION/masks/images/'
-    csv_input='/content/SSD_OBJECT-DETECTION/masks/data/'
+    output_path = '/content/Unusual-detection/data/'
+    image_dir= '/content/Unusual-detection/images/'
+    csv_input='/content/Unusual-detection/data/'
     writer = tf.python_io.TFRecordWriter(FLAGS.output_path)
     path = os.path.join(os.getcwd(), 'images/train/')
     examples = pd.read_csv(FLAGS.csv_input)
