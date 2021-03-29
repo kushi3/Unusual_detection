@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>49.jpg</filename>
+	<path>C:\Users\Sree Archu\Downloads\train\train\49.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>0</width>
+		<height>0</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>unusual</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>68</xmin>
+			<ymin>20</ymin>
+			<xmax>180</xmax>
+			<ymax>142</ymax>
+		</bndbox>
+	</object>
+</annotation>
