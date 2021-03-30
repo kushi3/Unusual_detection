@@ -32,21 +32,10 @@ FLAGS = flags.FLAGS
 
 # replace row_label with the name you annotated your images as
 def class_text_to_int(row_label):
-    if row_label == 'thief':
+    if row_label == 'unusual':
         return 1
-    elif row_label == 'fall':
-        return 2
-    elif row_label == 'damaging':
-        return 3
-    elif row_label == 'throw':
-        return 4
-    elif row_label == 'weapon':
-        return 5
-    elif row_label == 'fight':
-        return 6
     else:
-        return 0
-
+      return 0
 
 def split(df, group):
     data = namedtuple('data', ['filename', 'object'])
@@ -96,9 +85,9 @@ def create_tf_example(group, path):
 
 
 def main(_):
-    output_path = '/content/Unusual-detection/data/'
-    image_dir= '/content/Unusual-detection/images/'
-    csv_input='/content/Unusual-detection/data/'
+    output_path = '/content/Unusual_detection/data/'
+    image_dir= '/content/Unusual_detection/images/'
+    csv_input='/content/Unusual_detection/data/'
     writer = tf.python_io.TFRecordWriter(FLAGS.output_path)
     path = os.path.join(os.getcwd(), 'images/train/')
     examples = pd.read_csv(FLAGS.csv_input)
